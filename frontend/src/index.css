@@ -130,8 +130,9 @@ button:focus-visible {
   color: #fff;
   font-weight: 600;
   margin-top: 1rem;
-  width: 100%;
+  width: 30%;
   display: block;
+ 
 }
 .results-panel {
   background: #222;
