@@ -161,6 +161,38 @@ button:focus-visible {
   font-weight: 500;
 }
 
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  margin-bottom: 2rem;
+  background: #222;
+  border-radius: 8px;
+  padding: 2rem 1.5rem 1.5rem 1.5rem;
+  box-shadow: 0 1px 8px #0002;
+}
+.auth-form h2 {
+  margin-top: 0;
+  font-size: 1.4em;
+  text-align: center;
+}
+.auth-form label {
+  font-weight: 500;
+}
+.auth-form input[type="text"],
+.auth-form input[type="password"] {
+  width: 100%;
+  padding: 0.5em;
+  margin-top: 0.3em;
+  border-radius: 6px;
+  border: 1px solid #333;
+  background: #181818;
+  color: #fff;
+}
+.auth-form .scan-btn {
+  margin-top: 1rem;
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
