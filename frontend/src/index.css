@@ -61,6 +61,7 @@ button:focus-visible {
   border-radius: 12px;
   box-shadow: 0 2px 16px #0004;
   padding: 2rem 2.5rem 2.5rem 2.5rem;
+  margin-left: 31rem;
 }
 
 .api-form {
@@ -124,7 +125,14 @@ button:focus-visible {
   width: 100%;
   display: block;
 }
-
+#logoutbtn {
+  background: #f44336;
+  color: #fff;
+  font-weight: 600;
+  margin-top: 1rem;
+  width: 100%;
+  display: block;
+}
 .results-panel {
   background: #222;
   border-radius: 8px;

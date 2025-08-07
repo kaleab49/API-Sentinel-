@@ -4,7 +4,6 @@ import ResultsPanel from './components/ResultsPanel';
 import LoginForm from './components/LoginForm';
 import RegisterForm from './components/RegisterForm';
 import { scanApi, login, register } from './api/scan';
-import './App.css';
 
 function App() {
   const [results, setResults] = useState(null);
@@ -97,7 +96,7 @@ function App() {
     <div className="container">
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
         <h1>API Sentinel</h1>
-        <button className="scan-btn" onClick={handleLogout}>Logout</button>
+        <button className="scan-btn" id='logoutbtn' onClick={handleLogout}>Logout</button>
       </div>
       <ApiForm onScan={handleScan} loading={loading} />
       {error && <div className="error-msg">{error}</div>}
