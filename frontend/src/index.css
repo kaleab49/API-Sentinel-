@@ -94,12 +94,19 @@ button:focus-visible {
   display: flex;
   gap: 0.5rem;
   margin-bottom: 0.3rem;
+  align-items: center; /* Add this line */
 }
 .add-header {
   margin-top: 0.3rem;
   background: #333;
   color: #fff;
   border: none;
+  border-radius: 8px;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-family: inherit;
+  cursor: pointer;
+  transition: border-color 0.25s;
 }
 .remove-header {
   background: #f44336;
@@ -107,12 +114,15 @@ button:focus-visible {
   border: none;
   font-size: 1.1em;
   padding: 0 0.7em;
+  border-radius: 8px;
 }
 .scan-btn {
   background: #646cff;
   color: #fff;
   font-weight: 600;
   margin-top: 1rem;
+  width: 100%;
+  display: block;
 }
 
 .results-panel {
