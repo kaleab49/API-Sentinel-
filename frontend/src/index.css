@@ -54,6 +54,113 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
+.container {
+  max-width: 600px;
+  margin: 2rem auto;
+  background: #181818;
+  border-radius: 12px;
+  box-shadow: 0 2px 16px #0004;
+  padding: 2rem 2.5rem 2.5rem 2.5rem;
+}
+
+.api-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  margin-bottom: 2rem;
+}
+.api-form label {
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+.api-form input[type="url"],
+.api-form input[type="text"] {
+  width: 100%;
+  padding: 0.5em;
+  margin-top: 0.3em;
+  border-radius: 6px;
+  border: 1px solid #333;
+  background: #222;
+  color: #fff;
+}
+.headers-section {
+  margin-top: 0.5rem;
+}
+.headers-label {
+  font-size: 1rem;
+  margin-bottom: 0.3rem;
+}
+.header-row {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 0.3rem;
+}
+.add-header {
+  margin-top: 0.3rem;
+  background: #333;
+  color: #fff;
+  border: none;
+}
+.remove-header {
+  background: #f44336;
+  color: #fff;
+  border: none;
+  font-size: 1.1em;
+  padding: 0 0.7em;
+}
+.scan-btn {
+  background: #646cff;
+  color: #fff;
+  font-weight: 600;
+  margin-top: 1rem;
+}
+
+.results-panel {
+  background: #222;
+  border-radius: 8px;
+  padding: 1.5rem 1rem;
+  margin-top: 1.5rem;
+  box-shadow: 0 1px 8px #0002;
+}
+.results-panel h2 {
+  margin-top: 0;
+  font-size: 1.5em;
+}
+.result-item {
+  margin-bottom: 1.2rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #333;
+}
+.vuln-title {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1.1em;
+  font-weight: 600;
+}
+.risk-badge {
+  display: inline-block;
+  padding: 0.2em 0.8em;
+  border-radius: 1em;
+  color: #fff;
+  font-size: 0.95em;
+  margin-left: 0.5em;
+}
+.vuln-details {
+  margin-top: 0.4em;
+  color: #ccc;
+  font-size: 0.98em;
+}
+.error-msg {
+  color: #fff;
+  background: #f44336;
+  padding: 0.7em 1em;
+  border-radius: 6px;
+  margin-bottom: 1.2em;
+  text-align: center;
+  font-weight: 500;
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
